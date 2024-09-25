@@ -5,6 +5,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Website Galeri Foto</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<style>
+		.bg-image{
+			background-image: url('assets/img/pink.jpg');
+			height: 100vh;
+		}
+	</style>
+	
 </head>
 <body>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
