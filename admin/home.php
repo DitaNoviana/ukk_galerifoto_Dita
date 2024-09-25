@@ -19,8 +19,16 @@ include '../config/koneksi.php';
   <title>Website Galeri Foto</title>
   <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+  <style>
+    .bg-image{
+      background-image: url('../assets/img/pink.jpg');
+      height: 100vh;
+    }
+  </style>
+  
 </head>
-<body>
+<body class="bg-image">
+
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container">
       <a class="navbar-brand" href="index.php">Website Galeri Foto</a>
