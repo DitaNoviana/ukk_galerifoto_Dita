@@ -17,11 +17,19 @@ if ($_SESSION['status'] != 'login') {
   <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
   <link rel="shortcut icon" type="img/jpg" href="../assets/Icon.jpg">
   <title>Website Galeri Foto</title>
+  <style>
+    .bg-image{
+      background-image: url('../assets/img/pink.jpg');
+      height: 100vh;
+    }
+  </style>
+  
 </head>
-<body>
+<body class="bg-image">
+
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container">
-      <a class="navbar-brand" href="index.php">Galeri Foto</a>
+      <a class="navbar-brand" href="index.php">Website Galeri Foto</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
